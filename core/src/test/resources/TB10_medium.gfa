@@ -1,0 +1,351 @@
+H	VN:Z:1.0
+S	1	T	*	A:B:C
+L	1	+	2	+	0M
+S	2	A	*	X:Y:Z
+L	2	+	4	+	0M
+L	2	+	3	+	0M
+S	3	T	*	X:Y:Z
+L	3	+	5	+	0M
+S	4	C	*	X:Y:Z
+L	4	+	5	+	0M
+S	5	C	*	X:Y:Z
+L	5	+	7	+	0M
+L	5	+	6	+	0M
+S	6	C	*	X:Y:Z
+L	6	+	8	+	0M
+S	7	G	*	X:Y:Z
+L	7	+	8	+	0M
+S	8	G	*	X:Y:Z
+L	8	+	9	+	0M
+L	8	+	10	+	0M
+S	9	C	*	X:Y:Z
+L	9	+	11	+	0M
+S	10	A	*	X:Y:Z
+L	10	+	11	+	0M
+S	11	A	*	X:Y:Z
+L	11	+	12	+	0M
+L	11	+	13	+	0M
+S	12	C	*	X:Y:Z
+L	12	+	14	+	0M
+S	13	G	*	X:Y:Z
+L	13	+	14	+	0M
+S	14	A	*	X:Y:Z
+L	14	+	15	+	0M
+L	14	+	16	+	0M
+S	15	A	*	X:Y:Z
+L	15	+	17	+	0M
+S	16	C	*	X:Y:Z
+L	16	+	17	+	0M
+S	17	C	*	X:Y:Z
+L	17	+	18	+	0M
+L	17	+	19	+	0M
+S	18	A	*	X:Y:Z
+L	18	+	20	+	0M
+S	19	G	*	X:Y:Z
+L	19	+	20	+	0M
+S	20	G	*	X:Y:Z
+L	20	+	21	+	0M
+L	20	+	22	+	0M
+S	21	G	*	X:Y:Z
+L	21	+	23	+	0M
+S	22	A	*	X:Y:Z
+L	22	+	23	+	0M
+S	23	G	*	X:Y:Z
+L	23	+	24	+	0M
+L	23	+	25	+	0M
+S	24	C	*	X:Y:Z
+L	24	+	26	+	0M
+S	25	T	*	X:Y:Z
+L	25	+	26	+	0M
+S	26	G	*	X:Y:Z
+L	26	+	27	+	0M
+L	26	+	28	+	0M
+S	27	G	*	X:Y:Z
+L	27	+	29	+	0M
+S	28	A	*	X:Y:Z
+L	28	+	29	+	0M
+S	29	A	*	X:Y:Z
+L	29	+	30	+	0M
+L	29	+	31	+	0M
+S	30	G	*	X:Y:Z
+L	30	+	32	+	0M
+S	31	C	*	X:Y:Z
+L	31	+	32	+	0M
+S	32	C	*	X:Y:Z
+L	32	+	33	+	0M
+L	32	+	34	+	0M
+S	33	G	*	X:Y:Z
+L	33	+	35	+	0M
+S	34	C	*	X:Y:Z
+L	34	+	35	+	0M
+S	35	C	*	X:Y:Z
+L	35	+	36	+	0M
+L	35	+	37	+	0M
+S	36	C	*	X:Y:Z
+L	36	+	38	+	0M
+S	37	T	*	X:Y:Z
+L	37	+	38	+	0M
+S	38	G	*	X:Y:Z
+L	38	+	39	+	0M
+L	38	+	40	+	0M
+S	39	T	*	X:Y:Z
+L	39	+	40	+	0M
+S	40	G	*	X:Y:Z
+L	40	+	41	+	0M
+L	40	+	42	+	0M
+S	41	G	*	X:Y:Z
+L	41	+	43	+	0M
+S	42	C	*	X:Y:Z
+L	42	+	43	+	0M
+S	43	A	*	X:Y:Z
+L	43	+	44	+	0M
+L	43	+	45	+	0M
+S	44	A	*	X:Y:Z
+L	44	+	46	+	0M
+S	45	G	*	X:Y:Z
+L	45	+	46	+	0M
+S	46	C	*	X:Y:Z
+L	46	+	47	+	0M
+L	46	+	48	+	0M
+S	47	T	*	X:Y:Z
+L	47	+	49	+	0M
+S	48	C	*	X:Y:Z
+L	48	+	49	+	0M
+S	49	A	*	X:Y:Z
+L	49	+	50	+	0M
+L	49	+	51	+	0M
+S	50	G	*	X:Y:Z
+L	50	+	52	+	0M
+S	51	C	*	X:Y:Z
+L	51	+	52	+	0M
+S	52	C	*	X:Y:Z
+L	52	+	53	+	0M
+L	52	+	54	+	0M
+S	53	A	*	X:Y:Z
+L	53	+	55	+	0M
+S	54	G	*	X:Y:Z
+L	54	+	55	+	0M
+S	55	T	*	X:Y:Z
+L	55	+	56	+	0M
+L	55	+	57	+	0M
+S	56	C	*	X:Y:Z
+L	56	+	58	+	0M
+S	57	T	*	X:Y:Z
+L	57	+	58	+	0M
+S	58	T	*	X:Y:Z
+L	58	+	59	+	0M
+L	58	+	60	+	0M
+S	59	T	*	X:Y:Z
+L	59	+	61	+	0M
+S	60	C	*	X:Y:Z
+L	60	+	61	+	0M
+S	61	C	*	X:Y:Z
+L	61	+	62	+	0M
+L	61	+	63	+	0M
+S	62	T	*	X:Y:Z
+L	62	+	64	+	0M
+S	63	C	*	X:Y:Z
+L	63	+	64	+	0M
+S	64	T	*	X:Y:Z
+L	64	+	65	+	0M
+L	64	+	66	+	0M
+S	65	C	*	X:Y:Z
+L	65	+	67	+	0M
+S	66	T	*	X:Y:Z
+L	66	+	67	+	0M
+S	67	G	*	X:Y:Z
+L	67	+	68	+	0M
+L	67	+	69	+	0M
+S	68	C	*	X:Y:Z
+L	68	+	70	+	0M
+S	69	G	*	X:Y:Z
+L	69	+	70	+	0M
+S	70	A	*	X:Y:Z
+L	70	+	71	+	0M
+L	70	+	72	+	0M
+S	71	G	*	X:Y:Z
+L	71	+	73	+	0M
+S	72	C	*	X:Y:Z
+L	72	+	73	+	0M
+S	73	T	*	X:Y:Z
+L	73	+	74	+	0M
+L	73	+	75	+	0M
+S	74	A	*	X:Y:Z
+L	74	+	76	+	0M
+S	75	G	*	X:Y:Z
+L	75	+	76	+	0M
+S	76	C	*	X:Y:Z
+L	76	+	77	+	0M
+L	76	+	78	+	0M
+S	77	G	*	X:Y:Z
+L	77	+	79	+	0M
+S	78	C	*	X:Y:Z
+L	78	+	79	+	0M
+S	79	G	*	X:Y:Z
+L	79	+	80	+	0M
+L	79	+	81	+	0M
+S	80	T	*	X:Y:Z
+L	80	+	82	+	0M
+S	81	C	*	X:Y:Z
+L	81	+	82	+	0M
+S	82	C	*	X:Y:Z
+L	82	+	83	+	0M
+L	82	+	84	+	0M
+S	83	C	*	X:Y:Z
+L	83	+	84	+	0M
+S	84	T	*	X:Y:Z
+L	84	+	85	+	0M
+L	84	+	86	+	0M
+S	85	T	*	X:Y:Z
+L	85	+	87	+	0M
+S	86	C	*	X:Y:Z
+L	86	+	87	+	0M
+S	87	G	*	X:Y:Z
+L	87	+	88	+	0M
+L	87	+	89	+	0M
+S	88	A	*	X:Y:Z
+L	88	+	90	+	0M
+S	89	G	*	X:Y:Z
+L	89	+	90	+	0M
+S	90	G	*	X:Y:Z
+L	90	+	91	+	0M
+L	90	+	92	+	0M
+S	91	C	*	X:Y:Z
+L	91	+	93	+	0M
+S	92	T	*	X:Y:Z
+L	92	+	93	+	0M
+S	93	G	*	X:Y:Z
+L	93	+	94	+	0M
+L	93	+	95	+	0M
+S	94	A	*	X:Y:Z
+L	94	+	96	+	0M
+S	95	G	*	X:Y:Z
+L	95	+	96	+	0M
+S	96	C	*	X:Y:Z
+L	96	+	97	+	0M
+L	96	+	98	+	0M
+S	97	C	*	X:Y:Z
+L	97	+	99	+	0M
+S	98	T	*	X:Y:Z
+L	98	+	99	+	0M
+S	99	A	*	X:Y:Z
+L	99	+	100	+	0M
+L	99	+	101	+	0M
+S	100	A	*	X:Y:Z
+L	100	+	102	+	0M
+S	101	G	*	X:Y:Z
+L	101	+	102	+	0M
+S	102	A	*	X:Y:Z
+L	102	+	103	+	0M
+L	102	+	104	+	0M
+S	103	C	*	X:Y:Z
+L	103	+	105	+	0M
+S	104	G	*	X:Y:Z
+L	104	+	105	+	0M
+S	105	C	*	X:Y:Z
+L	105	+	107	+	0M
+L	105	+	106	+	0M
+S	106	C	*	X:Y:Z
+L	106	+	107	+	0M
+S	107	C	*	X:Y:Z
+L	107	+	108	+	0M
+L	107	+	109	+	0M
+S	108	C	*	X:Y:Z
+L	108	+	110	+	0M
+S	109	G	*	X:Y:Z
+L	109	+	110	+	0M
+S	110	T	*	X:Y:Z
+L	110	+	111	+	0M
+L	110	+	112	+	0M
+S	111	A	*	X:Y:Z
+L	111	+	113	+	0M
+S	112	G	*	X:Y:Z
+L	112	+	113	+	0M
+S	113	C	*	X:Y:Z
+L	113	+	114	+	0M
+L	113	+	115	+	0M
+S	114	T	*	X:Y:Z
+L	114	+	116	+	0M
+S	115	G	*	X:Y:Z
+L	115	+	116	+	0M
+S	116	T	*	X:Y:Z
+L	116	+	118	+	0M
+L	116	+	117	+	0M
+S	117	C	*	X:Y:Z
+L	117	+	118	+	0M
+S	118	C	*	X:Y:Z
+L	118	+	119	+	0M
+L	118	+	120	+	0M
+S	119	C	*	X:Y:Z
+L	119	+	121	+	0M
+S	120	A	*	X:Y:Z
+L	120	+	121	+	0M
+S	121	C	*	X:Y:Z
+L	121	+	122	+	0M
+L	121	+	123	+	0M
+S	122	G	*	X:Y:Z
+L	122	+	124	+	0M
+S	123	C	*	X:Y:Z
+L	123	+	124	+	0M
+S	124	T	*	X:Y:Z
+L	124	+	125	+	0M
+L	124	+	126	+	0M
+S	125	C	*	X:Y:Z
+L	125	+	127	+	0M
+S	126	G	*	X:Y:Z
+L	126	+	127	+	0M
+S	127	G	*	X:Y:Z
+L	127	+	128	+	0M
+L	127	+	129	+	0M
+S	128	G	*	X:Y:Z
+L	128	+	130	+	0M
+S	129	A	*	X:Y:Z
+L	129	+	130	+	0M
+S	130	C	*	X:Y:Z
+L	130	+	131	+	0M
+L	130	+	132	+	0M
+S	131	G	*	X:Y:Z
+L	131	+	133	+	0M
+S	132	A	*	X:Y:Z
+L	132	+	133	+	0M
+S	133	A	*	X:Y:Z
+L	133	+	134	+	0M
+L	133	+	135	+	0M
+S	134	A	*	X:Y:Z
+L	134	+	136	+	0M
+S	135	G	*	X:Y:Z
+L	135	+	136	+	0M
+S	136	T	*	X:Y:Z
+L	136	+	137	+	0M
+L	136	+	138	+	0M
+S	137	C	*	X:Y:Z
+L	137	+	139	+	0M
+S	138	T	*	X:Y:Z
+L	138	+	139	+	0M
+S	139	A	*	X:Y:Z
+L	139	+	140	+	0M
+L	139	+	141	+	0M
+S	140	A	*	X:Y:Z
+L	140	+	142	+	0M
+S	141	G	*	X:Y:Z
+L	141	+	142	+	0M
+S	142	G	*	X:Y:Z
+L	142	+	143	+	0M
+L	142	+	144	+	0M
+S	143	T	*	X:Y:Z
+L	143	+	145	+	0M
+S	144	C	*	X:Y:Z
+L	144	+	145	+	0M
+S	145	G	*	X:Y:Z
+L	145	+	146	+	0M
+L	145	+	147	+	0M
+S	146	N	*	A:B:C
+S	147	G	*	X:Y:Z
+
+L	147	+	148	+	0M
+L	147	+	149	+	0M
+S	148	T	*	X:Y:Z
+L	148	+	150	+	0M
+S	149	C	*	X:Y:Z
+L	149	+	150	+	0M
+S	150	C	*	X:Y:Z

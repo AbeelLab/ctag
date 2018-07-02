@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane fx:id="mainBorderPane" minHeight="600.0" minWidth="900.0" prefHeight="600.0"
+            prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.tudelft.pl2.representation.ui.MainController">
+
+    <left>
+        <fx:include source="infoSidePanel/info_side_panel_view.fxml"/>
+    </left>
+    <top>
+        <fx:include source="menu/menu_bar_view.fxml" />
+    </top>
+    <center>
+        <VBox >
+            <fx:include source="graph/graph_view.fxml" VBox.vgrow="SOMETIMES"/>
+            <fx:include source="navigationBar/navigation_bar_view.fxml" VBox.vgrow="NEVER"/>
+            <fx:include source="heatmap/heatmap_view.fxml" VBox.vgrow="NEVER"/>
+        </VBox>
+    </center>
+</BorderPane>

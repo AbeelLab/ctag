@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<MenuBar xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+         fx:controller="nl.tudelft.pl2.representation.ui.menu.MenuBarController">
+    <Menu text="_File" mnemonicParsing="true">
+        <MenuItem fx:id="openFile" text="Open GFA File">
+            <accelerator>
+                <KeyCodeCombination alt="UP" code="O" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+            </accelerator>
+        </MenuItem>
+        <Menu fx:id="openLastFile" text="Open last GFA File"/>
+        <MenuItem text="Open GFF file" fx:id="openGffFile" onAction="#openGffFileChooser">
+            <accelerator>
+                <KeyCodeCombination alt="UP" code="P" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+            </accelerator>
+        </MenuItem>
+        <Menu text="Open last GFF File" fx:id="openLastGffFile"/>
+        <MenuItem text="Unload loaded GFF File" fx:id="unloadGffFile" onAction="#unloadGffFile" disable="true"/>
+        <SeparatorMenuItem/>
+        <MenuItem fx:id="closeApp" text="Exit">
+            <accelerator>
+                <KeyCodeCombination alt="UP" code="F4" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+            </accelerator>
+        </MenuItem>
+    </Menu>
+    <Menu fx:id="goTo" text="_Go To" mnemonicParsing="true">
+        <MenuItem text="Go to layer">
+            <accelerator>
+                <KeyCodeCombination alt="UP" code="G" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+            </accelerator>
+        </MenuItem>
+        <MenuItem text="Go to node id">
+            <accelerator>
+                <KeyCodeCombination alt="UP" code="N" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+            </accelerator>
+        </MenuItem>
+    </Menu>
+    <Menu fx:id="bookmarkMenu" text="_Bookmarks" mnemonicParsing="true">
+        <MenuItem fx:id="importBookmarkMenuItem" text="Import bookmark">
+            <accelerator>
+                <KeyCodeCombination alt="UP" code="I" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+            </accelerator>
+        </MenuItem>
+        <MenuItem fx:id="exportBookmarkMenuItem" text="Export bookmark">
+            <accelerator>
+                <KeyCodeCombination alt="UP" code="W" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+            </accelerator>
+        </MenuItem>
+        <MenuItem fx:id="createBookmarkMenuItem" text="Create bookmark">
+            <accelerator>
+                <KeyCodeCombination alt="UP" code="T" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+            </accelerator>
+        </MenuItem>
+    </Menu>
+
+
+    <Menu text="Annotations" fx:id="annotationMenu">
+        <MenuItem text="Open annotation menu" fx:id="annotationMenuItem" />
+    </Menu>
+
+    <Menu fx:id="semanticZoom" text="_Semantic Zoom" mnemonicParsing="true">
+        <CheckMenuItem fx:id="bubblesAndIndels" text="Collapse SNP/indel">
+            <accelerator>
+                <KeyCodeCombination alt="UP" code="B" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+            </accelerator>
+        </CheckMenuItem>
+        <CheckMenuItem fx:id="chain" text="Collapse chains">
+            <accelerator>
+                <KeyCodeCombination alt="UP" code="M" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+            </accelerator>
+        </CheckMenuItem>
+    </Menu>
+
+    <Menu fx:id="helpMenu" text="_Help" mnemonicParsing="true">
+        <MenuItem fx:id="openShortKey" text="Short keys">
+            <accelerator>
+                <KeyCodeCombination alt="UP" code="H" control="DOWN" meta="UP"
+                                    shift="UP" shortcut="UP"/>
+            </accelerator>
+        </MenuItem>
+    </Menu>
+
+</MenuBar>

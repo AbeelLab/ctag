@@ -1,2 +1,65 @@
+# Java
 *.class
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.project
+.classpath
+.settings
+
+# Idea
+.idea
+*.iml
+*.iws
+*.ipr
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Gradle
+.gradle
+!gradle-wrapper.jar
+
+# Maven
+target
+
+# Build
+out
+build
+bin
+
+# Other
 *.log
+*.swp
+*.bak
+
+# GFA
+*.gfa
+*.varlenctag
+*.tabbedindex
+*.tabindex
+*.hygene
+*.hygenecache
+*.givenlenctag
+*.ctg0
+*.hmp
+*.hdr
+*.idx0
+
+# Unignore test file
+!only_headers.gfa
+!only_headers2.gfa
+!TB10_small.gfa
+!TB10_medium.gfa
+!TB10_medium_to_large.gfa
+!test1.gfa
+!test2.gfa
+!test3.gfa
+!test4.gfa
+!test5.gfa
+
+# Ignore log directory
+log/

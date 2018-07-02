@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="nl.tudelft.pl2.representation.ui.menu.BookmarkExportController"
+          prefHeight="500.0" prefWidth="600.0" fx:id="exportPane"
+          hgap="20" vgap="10" onKeyPressed="#closeMenu">
+    <padding>
+        <Insets topRightBottomLeft="10"/>
+    </padding>
+
+    <columnConstraints>
+        <ColumnConstraints prefWidth="200"/>
+        <ColumnConstraints prefWidth="280"/>
+    </columnConstraints>
+
+    <ComboBox GridPane.columnIndex="0" GridPane.rowIndex="0"
+              promptText="Bookmark" fx:id="bookmarkSelect"
+              onKeyPressed="#openBox"/>
+
+    <Text text="Description: " GridPane.columnIndex="0"
+          GridPane.rowIndex="1" GridPane.halignment="RIGHT"/>
+    <TextField fx:id="descriptionText" GridPane.columnIndex="1"
+               GridPane.rowIndex="1" onKeyPressed="#enterPressed"/>
+
+    <Text text="Graph: " GridPane.columnIndex="0"
+          GridPane.rowIndex="2" GridPane.halignment="RIGHT"/>
+    <TextField fx:id="graphText" GridPane.columnIndex="1"
+               GridPane.rowIndex="2" editable="false"
+               style="-fx-background-color: #d9d9d9;"/>
+
+    <Text text="Nodes: " GridPane.columnIndex="0"
+          GridPane.rowIndex="3" GridPane.halignment="RIGHT"/>
+    <TextField fx:id="nodeText" GridPane.columnIndex="1"
+               GridPane.rowIndex="3" editable="false"
+               style="-fx-background-color: #d9d9d9;"/>
+
+    <Text text="Zoom level: " GridPane.columnIndex="0"
+          GridPane.rowIndex="4" GridPane.halignment="RIGHT"/>
+    <TextField fx:id="zoomLevelText" GridPane.columnIndex="1"
+               GridPane.rowIndex="4" editable="false"
+               style="-fx-background-color: #d9d9d9;"/>
+
+    <Text text="Translation:" GridPane.columnIndex="0"
+        GridPane.rowIndex="5" GridPane.halignment="RIGHT"/>
+    <TextField fx:id="translationText" GridPane.columnIndex="1"
+               GridPane.rowIndex="5" editable="false"
+               style="-fx-background-color: #d9d9d9;"/>
+
+
+    <Text text="Export string: " GridPane.columnIndex="0"
+    GridPane.rowIndex="6" GridPane.halignment="RIGHT"/>
+    <TextField fx:id="exportText" GridPane.columnIndex="1"
+               GridPane.rowIndex="6" editable="false"
+               style="-fx-background-color: #d9d9d9;"/>
+
+    <Button fx:id="exportButton" text="Export string" onAction="#copyToClipboard"
+        GridPane.halignment="RIGHT" GridPane.rowIndex="7"
+        GridPane.columnIndex="1" onKeyPressed="#enterPressed"/>
+
+</GridPane>

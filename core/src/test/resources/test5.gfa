@@ -1,0 +1,9 @@
+H	VN:Z:2.0
+H	ORI:Z:TKK-01-0015.fasta
+S	1	C	*	START:Z:0
+L	1	+	2	+	0M
+L	1	+	3	+	0M
+L	1	+	4	+	0M
+S	2	A	*	START:Z:1
+S	3	T	*	START:Z:1
+S	4	T	*	START:Z:1

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:id="graphPane"
+           minWidth="0" minHeight="0"
+           fx:controller="nl.tudelft.pl2.representation.ui.graph.GraphController">
+
+    <children>
+
+        <VBox fx:id="progressBox" StackPane.alignment="CENTER"
+              alignment="CENTER" visible="false" managed="false">
+            <children>
+                <Label fx:id="progressState"/>
+                <StackPane>
+                    <children>
+                        <ProgressBar fx:id="progressBar" visible="false" prefWidth="200"/>
+                        <ProgressBar fx:id="progressBarGff" visible="false" prefWidth="200"/>
+                    </children>
+                </StackPane>
+            </children>
+        </VBox>
+
+        <Canvas fx:id="graphCanvas"
+                width="600"
+                height="400"
+                onMouseReleased="#graphClick"
+        />
+    </children>
+</StackPane>
+

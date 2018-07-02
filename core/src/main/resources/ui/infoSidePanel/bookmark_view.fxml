@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="nl.tudelft.pl2.representation.ui.InfoSidePanel.BookmarkTableController">
+
+    <columnConstraints>
+        <ColumnConstraints minWidth="20" prefWidth="130"/>
+        <ColumnConstraints prefWidth="130"/>
+    </columnConstraints>
+
+
+    <TextField fx:id="searchField" promptText="Search for bookmark"
+               GridPane.columnSpan="123456" GridPane.rowIndex="0"/>
+    <TableView fx:id="bookmarkTable" prefHeight="200.0" GridPane.columnSpan="2147483647"
+               GridPane.rowIndex="1"
+               GridPane.vgrow="NEVER"
+               >
+
+        <columns>
+            <TableColumn fx:id="bookmarkColumn" prefWidth="180" text="Bookmarks"/>
+            <TableColumn fx:id="exportColumn" prefWidth="20"/>
+            <TableColumn fx:id="deleteColumn" prefWidth="20"/>
+        </columns>
+
+        <GridPane.margin>
+            <Insets bottom="5" top="5"/>
+        </GridPane.margin>
+    </TableView>
+
+
+</GridPane>

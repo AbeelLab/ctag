@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<GridPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="nl.tudelft.pl2.representation.ui.menu.AnnotationDetailController"
+          prefWidth="250" minWidth="200">
+    <padding><Insets left="10" right="10" top="60"  bottom="10"/></padding>
+    <columnConstraints>
+        <ColumnConstraints/>
+        <ColumnConstraints/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+    </rowConstraints>
+    <children>
+        <Label text="Start coordinate" GridPane.rowIndex="0"/>
+        <Label text="End coordinate" GridPane.rowIndex="1"/>
+        <Label text="Score" GridPane.rowIndex="2"/>
+        <Label text="Strand" GridPane.rowIndex="3"/>
+        <Label text="Phase" GridPane.rowIndex="4"/>
+        <Label text="Type" GridPane.rowIndex="5"/>
+        <Label text="Id" GridPane.rowIndex="6"/>
+        <Label text="Source" GridPane.rowIndex="7"/>
+
+        <Label fx:id="start" text="-" GridPane.columnIndex="1"
+               GridPane.rowIndex="0"/>
+        <Label fx:id="end" text="-" GridPane.columnIndex="1"
+               GridPane.rowIndex="1"/>
+        <Label fx:id="score" text="-" GridPane.columnIndex="1"
+               GridPane.rowIndex="2"/>
+        <Label fx:id="strand" text="-" GridPane.columnIndex="1"
+               GridPane.rowIndex="3"/>
+        <Label fx:id="phase" text="-" GridPane.columnIndex="1"
+               GridPane.rowIndex="4"/>
+        <Label fx:id="type" text="-" GridPane.columnIndex="1"
+               GridPane.rowIndex="5"/>
+        <Label fx:id="id" text="-" GridPane.columnIndex="1"
+               GridPane.rowIndex="6"/>
+        <Label fx:id="source" text="-" GridPane.columnIndex="1"
+               GridPane.rowIndex="7"/>
+
+        <TableView fx:id="optionTable" prefHeight="200.0"
+                   GridPane.columnSpan="2147483647" GridPane.rowIndex="8"
+                   GridPane.vgrow="NEVER">
+            <columns>
+                <TableColumn fx:id="optionValue" prefWidth="120" text="value"/>
+                <TableColumn fx:id="optionName" prefWidth="120" text="name"/>
+            </columns>
+
+            <GridPane.margin>
+                <Insets top="5.0" right="5.0"/>
+            </GridPane.margin>
+
+        </TableView>
+    </children>
+</GridPane>

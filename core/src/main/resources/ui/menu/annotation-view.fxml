@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<GridPane xmlns="http://javafx.com/javafx"
+          fx:id="annotationPane"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="nl.tudelft.pl2.representation.ui.menu.AnnotationController"
+            hgap="5">
+    <columnConstraints>
+        <ColumnConstraints prefWidth="100"/>
+        <ColumnConstraints prefWidth="100"/>
+        <ColumnConstraints/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+    </rowConstraints>
+
+    <TextField fx:id="searchField" GridPane.columnSpan="2147483647" promptText="Search for Annotation"><GridPane.margin><Insets left="10" top="10"/></GridPane.margin></TextField>
+    <HBox GridPane.rowIndex="1" GridPane.columnSpan="2147483647">
+
+
+        <TableView fx:id="annotationTable" prefHeight="500" prefWidth="540" minWidth="400" GridPane.columnSpan="2147483647">
+            <columns>
+                <TableColumn fx:id="selectedColumn" prefWidth="40" minWidth="40"/>
+                <TableColumn fx:id="traitID" prefWidth="100" text="Trait ID"/>
+                <TableColumn fx:id="startPos" prefWidth="75" text="StartPos"/>
+                <TableColumn fx:id="endPos" prefWidth="75" text="endPos"/>
+                <TableColumn fx:id="type" prefWidth="75" text="Type"/>
+                <TableColumn fx:id="attributes" prefWidth="150" text="Attributes"/>
+            </columns>
+
+            <GridPane.margin>
+                <Insets left="5.0" right="5.0" bottom="5.0" top="5.0"/>
+            </GridPane.margin>
+        </TableView>
+
+        <Separator/>
+
+        <fx:include source="/ui/menu/annotation-detail-view.fxml"></fx:include>
+    </HBox>
+
+    <Button text="Show" onAction="#showSelected"  GridPane.rowIndex="2" GridPane.columnIndex="0"><GridPane.margin><Insets left="5"/></GridPane.margin></Button>
+    <Button text="Hide"  onAction="#hideSelected" GridPane.rowIndex="2" GridPane.columnIndex="1"></Button>
+    <Button text="Apply" onAction="#applySelected" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.columnIndex="2"><GridPane.margin><Insets right="5"/></GridPane.margin></Button>
+
+</GridPane>

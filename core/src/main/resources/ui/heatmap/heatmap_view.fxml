@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="nl.tudelft.pl2.representation.ui.heatmap.HeatMapController"
+            prefHeight="50" minWidth="0" minHeight="50"
+            fx:id="heatMapPane" style="-fx-border-color: lightblue">
+    <Canvas fx:id="heatMapCanvas" width="50" height="50" onMouseClicked="#goToLayer"
+            onMouseDragged="#draggedMouse">
+
+    </Canvas>
+</AnchorPane>

@@ -1,0 +1,5 @@
+S	1	C	*	START:Z:0
+L	1	+	2	+	0M
+S	2	A	*	START:Z:1
+L	2	+	3	+	0M
+S	3	T	*	START:Z:2

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<BorderPane fx:id="pane" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="nl.tudelft.pl2.representation.ui.graph.CorruptedFileController">
+    <bottom>
+        <HBox alignment="TOP_RIGHT" BorderPane.alignment="CENTER">
+            <children>
+                <Button mnemonicParsing="false" text="Retry Loading" onAction="#retryLoad"/>
+                <Separator minWidth="20.0" orientation="VERTICAL"/>
+                <Button mnemonicParsing="false" text="Regenerate Cache" onAction="#regenerateCache"/>
+                <Separator orientation="VERTICAL"/>
+                <Button mnemonicParsing="false" text="Cancel" onAction="#cancel"/>
+            </children>
+        </HBox>
+    </bottom>
+    <center>
+        <Label maxWidth="280.0"
+               text="The cached files for the graph you were trying to load were corrupted. Would you like to regenerate these files? (This might take a few minutes)"
+               wrapText="true" BorderPane.alignment="CENTER">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+    </center>
+    <padding>
+        <Insets bottom="5.0" left="10.0" right="10.0" top="10.0"/>
+    </padding>
+</BorderPane>

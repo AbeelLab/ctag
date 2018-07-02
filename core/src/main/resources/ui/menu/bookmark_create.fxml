@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+<GridPane fx:controller="nl.tudelft.pl2.representation.ui.menu.BookmarkCreateController"
+          xmlns:fx="http://javafx.com/fxml" prefHeight="100.0" prefWidth="300.0"
+          xmlns="http://javafx.com/javafx/8.0.121"
+          hgap="10" vgap="10" fx:id="pane"
+          onKeyPressed="#paneKeyPressed">
+    <padding>
+        <Insets topRightBottomLeft="10"/>
+    </padding>
+
+    <columnConstraints>
+        <ColumnConstraints prefWidth="280"
+                           hgrow="ALWAYS"/>
+    </columnConstraints>
+
+
+    <Text text="Give a title/description to your bookmark" GridPane.columnIndex="0"
+          GridPane.rowIndex="0"/>
+
+    <TextField fx:id="input"
+               GridPane.columnIndex="0" GridPane.rowIndex="1"
+               maxWidth="300"
+               onKeyPressed="#createBookmarkEnter"/>
+
+    <Button fx:id="createButton" text="Create"
+            GridPane.rowIndex="2" GridPane.columnIndex="0"
+            GridPane.halignment="RIGHT"
+            onAction="#createBookmark"
+            />
+</GridPane>

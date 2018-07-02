@@ -1,0 +1,7 @@
+image: ceddy4395/maven-javafx:1.0
+
+def-job:
+  script:
+    - 'mvn clean'
+    - "chmod +x ./build/default-build.sh"
+    - "build/default-build.sh"
