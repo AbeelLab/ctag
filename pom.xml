@@ -32,7 +32,7 @@
         <junit.jupiter.version>5.0.0-M4</junit.jupiter.version>
         <junit-jupiter-params.version>5.2.0</junit-jupiter-params.version>
         <junit.platform.version>1.0.0-M4</junit.platform.version>
-        <junit.junit.version>4.12</junit.junit.version>
+        <junit.junit.version>4.13.1</junit.junit.version>
         <mockito-core.version>2.10.0</mockito-core.version>
         <davidmoten-rTree.version>0.8-RC10</davidmoten-rTree.version>
 
@@ -41,7 +41,7 @@
         <findbug-maven-plugin.version>3.0.5</findbug-maven-plugin.version>
 
         <maven-checkstyle-plugin.version>3.0.0</maven-checkstyle-plugin.version>
-        <log4j.version>2.11.0</log4j.version>
+        <log4j.version>2.16.0</log4j.version>
 
         <controlsfx.version>8.40.14</controlsfx.version>
         <interval-tree.version>1.0.0</interval-tree.version>
